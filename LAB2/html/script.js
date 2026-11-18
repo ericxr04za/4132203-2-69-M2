@@ -23,7 +23,8 @@ console.log(car.model);
 console.log(car.run());
 
 ///////jQuery///////
-$(document).ready(function ()) {
+$(document).ready (function () 
+{
 
   $("#btnAdd").click(function () {
 
@@ -33,4 +34,4 @@ $(document).ready(function ()) {
     let result = parseInt(num1) + parseInt(num2);
     $("#result").html(result);
   });
-}
+})
